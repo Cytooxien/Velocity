@@ -144,6 +144,10 @@ public class JoinGame implements MinecraftPacket {
     return currentDimensionData;
   }
 
+  public void setCurrentDimensionData(DimensionData currentDimensionData) {
+    this.currentDimensionData = currentDimensionData;
+  }
+
   @Override
   public String toString() {
     return "JoinGame{"
